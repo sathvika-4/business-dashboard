@@ -130,14 +130,14 @@ fig3 = px.line(
 
 with left:
     st.subheader("🌍 Revenue by Country")
-    st.plotly_chart(fig1, use_container_width=True)
+    st.plotly_chart(fig1, width="stretch")
 
 with right:
     st.subheader("🏆 Top 10 Products")
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, width="stretch")
 
 st.subheader("📈 Monthly Revenue Trend")
-st.plotly_chart(fig3, use_container_width=True)
+st.plotly_chart(fig3, width="stretch")
 
 # ---------------- DOWNLOAD ----------------
 
